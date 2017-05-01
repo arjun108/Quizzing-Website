@@ -1,0 +1,6 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+
+<p> Your score is {{ score }} !!! </p>
+
+<a href="{% url 'polls:index' %}">Play again?</a>

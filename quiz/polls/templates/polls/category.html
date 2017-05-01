@@ -1,0 +1,50 @@
+{% load static %}
+<html>
+    <head>
+        <title>Categories</title>
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="{% static 'category/style.css' %}" />
+    </head>
+    <body>
+        <div id="top-bar">
+            <div id="quizzards"><b>Quizzards</b></div>
+            <div id="home"><b><a href="/polls">Home</a></b></div>
+            <div id="signout"><b><a href="/accounts/logout">Signout</a></b></div>
+        </div>
+        <div id="heading">
+                Category.category_text
+        </div>    
+        <div id="questions">
+            <div id="left">
+                {% if question_list %}
+                    <form action="{% url 'polls:vote' category_id %}" method="post">
+                    {% csrf_token %}
+                    {% for question in question_list %}
+                        <h3>{{question.question_text}}</h3>
+                        {% for choice in question.choice_set.all %}
+                        <input type="radio" name="choice{{ question.id }}" id="choice{{ forloop.counter }}" value="{{ choice.id }}" />
+                        <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br />
+                        {% endfor %}
+                        <br>
+                    {% endfor %}
+                        <input type="submit" value="Submit" />
+	               </form>
+                {% else %}
+                    <p>No questions are available.</p>
+                {% endif %}
+            </div>
+            <div id="center">
+                <img src="{% static "category/images/1.png" %}" >
+                <img src="{% static "category/images/2.png" %}" >
+                <img src="{% static "category/images/3.png" %}" >
+                <img src="{% static "category/images/4.png" %}" >
+            </div>
+<!--            <div id="right">-->
+<!--                <img src="{% static "category/images/3.png" %}" >-->
+<!--                <img src="{% static "category/images/4.png" %}" >-->
+<!--            </div>-->
+        </div>
+    </body>
+</html>

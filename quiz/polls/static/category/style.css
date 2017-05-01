@@ -1,0 +1,64 @@
+#top-bar{
+    background-color: rgba(14, 14, 56, 0.89);
+    height: 110px;
+    color: white;
+}
+
+#quizzards{
+    float: left;
+    padding-left: 5%;
+    font-size: 90px;
+/*    background-color: white;*/
+}
+
+#home{
+    float: left;
+    padding-left: 40%;
+    padding-top: 40px;
+/*    background-color: black;*/
+}
+
+#signout{
+    float: left;
+    padding-left: 8%;
+    padding-top: 40px;
+    width: 10%;
+/*    background-color: white;*/
+}
+
+#heading{
+    font-size: 50px;
+    text-align: center;
+}
+
+#questions{
+    color: white;
+}
+
+#left{
+    padding-left: 10%;
+    background-color: rgba(14, 14, 56, 0.89);
+    width: 50%;
+    height: 1800px;
+    float: left;
+}
+
+#center{
+    background-color: rgba(14, 14, 56, 0.89);
+    width: 50%;
+    height: 1800px;
+    float: left;
+}
+
+/*
+#right{
+    background-color: rgba(14, 14, 56, 0.89);
+    width:25%;
+    height: 400px;
+    float: left;
+}*/
+
+a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,53 @@
+body{
+    color: white;
+}
+#top-bar{
+    background-color: rgba(14, 14, 56, 0.89);
+    height: 110px;
+/*    color: white;*/
+}
+
+home.a{
+    text-decoration: none;
+    color: white;
+}
+
+#quizzards{
+    float: left;
+    padding-left: 5%;
+    font-size: 90px;
+/*    background-color: white;*/
+}
+
+#home{
+    float: left;
+    padding-left: 40%;
+    padding-top: 40px;
+/*    background-color: black;*/
+}
+
+#signout{
+    float: left;
+    padding-left: 8%;
+    padding-top: 40px;
+    width: 10%;
+/*    background-color: white;*/
+}
+
+#heading{
+    margin-top: -20px;
+/*    background-color: #23302d;*/
+    color: black;
+}
+
+#categories{
+    height: 500px;
+    padding-left: 10%;
+    background-color: rgba(14, 14, 56, 0.89);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
