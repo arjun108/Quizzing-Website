@@ -1,7 +1,7 @@
 # Quizzing-Website
 This website is made using Python-Django where people can quiz in real time.
 
-#FUNCTIONING
+#FUNCTIONING<br />
 Firstly, the user needs to sign in either by making an account on the website or by signing up via facebook account.
 
 Once he signs in, he has an option to enter any one of the three categories:
