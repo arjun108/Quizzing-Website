@@ -14,22 +14,22 @@ Then he can select the answer and click on "Submit" button. After this, he is di
 
 #HIERARCHY<br />
   /Polls<br />
-  |  /Static<br />
-  |  |  /category<br />
-  |  |  |  /images: Contains images used in website<br />
-  |  |  |  /style.css<br />
-  |  |  /polls<br />
-  |  |    /style.css<br />
-  |  |<br />
-  |  /templates<br />
-  |  |  /category.html<br />
-  |  |  /index.html<br />
-  |  |  /result.html<br />
-  |  |<br />
-  |  /admin.py  - Register tables here<br />
-  |  /apps.py   - AppConfig here<br />
-  |  /models.py - Made 3 tables here: Category, Question, choice<br />
-  |  /views.py  - define views here<br />
+  |  &nbsp;/Static<br />
+  |  &nbsp;|  &nbsp;/category<br />
+  |  &nbsp;|  &nbsp;|  &nbsp;/images: Contains images used in website<br />
+  |  &nbsp;|  &nbsp;|  &nbsp;/style.css<br />
+  |  &nbsp;|  &nbsp;/polls<br />
+  |  &nbsp;|    &nbsp;/style.css<br />
+  |  &nbsp;|<br />
+  |  &nbsp;/templates<br />
+  |  &nbsp;|  &nbsp;/category.html<br />
+  |  &nbsp;|  &nbsp;/index.html<br />
+  |  &nbsp;|  &nbsp;/result.html<br />
+  |  &nbsp;|<br />
+  |  &nbsp;/admin.py  - Register tables here<br />
+  |  &nbsp;/apps.py   - AppConfig here<br />
+  |  &nbsp;/models.py - Made 3 tables here: Category, Question, choice<br />
+  |  &nbsp;/views.py  - define views here<br />
   /<br />
     
 #HOW TO RUN
