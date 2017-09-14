@@ -12,25 +12,25 @@ Since this is a demo project, there are just 1 or 2 questions depending which ca
 
 Then he can select the answer and click on "Submit" button. After this, he is directed to a new page showing his score and giving him an option if he wants to play again, clicking on which he is redirected to the page displaying the categories.
 
-#HIERARCHY
-  /Polls
-  |  /Static
-  |  |  /category
-  |  |  |  /images: Contains images used in website
-  |  |  |  /style.css
-  |  |  /polls
-  |  |    /style.css
-  |  |
-  |  /templates
-  |  |  /category.html
-  |  |  /index.html
-  |  |  /result.html
-  |  |
-  |  /admin.py  - Register tables here
-  |  /apps.py   - AppConfig here
-  |  /models.py - Made 3 tables here: Category, Question, choice
-  |  /views.py  - define views here
-  /
+#HIERARCHY<br />
+  /Polls<br />
+  |  /Static<br />
+  |  |  /category<br />
+  |  |  |  /images: Contains images used in website<br />
+  |  |  |  /style.css<br />
+  |  |  /polls<br />
+  |  |    /style.css<br />
+  |  |<br />
+  |  /templates<br />
+  |  |  /category.html<br />
+  |  |  /index.html<br />
+  |  |  /result.html<br />
+  |  |<br />
+  |  /admin.py  - Register tables here<br />
+  |  /apps.py   - AppConfig here<br />
+  |  /models.py - Made 3 tables here: Category, Question, choice<br />
+  |  /views.py  - define views here<br />
+  /<br />
     
 #HOW TO RUN
 1. Run CMD and change directory to the "../quiz" folder
